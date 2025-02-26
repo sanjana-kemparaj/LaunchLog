@@ -8,7 +8,7 @@ import {Avatar, AvatarImage} from "@/components/ui/avatar"
 
 const Navbar = async () => {
     const session = await auth();
-    console.log(session);
+
 
     return (
         <header className="px-5 bg-[141413] font-work-sans">
